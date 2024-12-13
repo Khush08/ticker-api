@@ -1,0 +1,36 @@
+{
+    "name": "ticker-api",
+    "version": "1.0.0",
+    "description": "API for getting stock names and tickers on the Indian stock market",
+    "main": "index.js",
+    "keywords": [
+        "stock",
+        "ticker",
+        "api",
+        "indian",
+        "NSE",
+        "BSE",
+        "equity",
+        "stock market",
+        "share market",
+        "National Stock Exchange",
+        "Bombay Stock Exchange"
+    ],
+    "type": "module",
+    "scripts": {
+        "dev": "nodemon index.js",
+        "format": "prettier --write .",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Khush Dassani",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "node-fetch": "^3.3.2"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.9",
+        "prettier": "^3.4.2"
+    }
+}
